@@ -10,7 +10,6 @@ import java.io.IOException;
 
 @Controller
 public class controller {
-
     @Autowired
     GsonAssembler gsonAssembler;
 

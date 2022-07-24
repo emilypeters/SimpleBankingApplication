@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f11402-b57d-40d1-9cd6-a5bf6a4521b3" name="Changes" comment="Added unversioned files">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sba/assembler/GsonAssembler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sba/dto/AccountDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts.html" afterDir="false" />
+    <list default="true" id="80f11402-b57d-40d1-9cd6-a5bf6a4521b3" name="Changes" comment="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Banking Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Banking Application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sba/controller/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sba/controller/controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sba/controller/controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sba/controller/controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -113,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658605518726</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost">
+      <created>1658672173256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658672173256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +132,7 @@
     <MESSAGE value="Added maven pom file" />
     <MESSAGE value="Created spring boot application and basic controller" />
     <MESSAGE value="Added unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unversioned files" />
+    <MESSAGE value="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost" />
   </component>
 </project>

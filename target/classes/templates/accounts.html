@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Accounts</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=noto-sans">
+    <style>
+        div {
+            font-family: 'noto-sans', serif;
+        }
+        h1 {
+            color: #0d94b5
+        }
+    </style>
 </head>
 <body>
 <div>
-    <ul th:each="account: ${accounts}">
-        <li th:text="${account.name}" />
-        <li th:text="${account.email}" />
-        <li th:text="${account.accountNumber}" />
-        <li th:text="${account.currentBalance}" />
-    </ul>
+    <h1>Accounts</h1>
+     <div th:each="account: ${accounts}">
+         <ul>
+             <li th:text="|Name: ${account.name}|"></li>
+             <ul>
+                 <li th:text="|Email: ${account.email}|" />
+                 <li th:text="|Account number: ${account.accountNumber}|" />
+                 <li th:text="|Current balance: ${account.currentBalance}|" />
+             </ul>
+         </ul>
+    </div>
 </div>
 </body>
 </html>
