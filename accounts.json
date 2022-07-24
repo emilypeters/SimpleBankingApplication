@@ -1,0 +1,27 @@
+[{
+	"name" : "Eddie Harrison",
+	"email" : "eharrison3@gmail.com",
+	"accountNumber" : 4356972, 
+	"currentBalance" : 235.6
+},
+
+{
+	"name" : "Manny Roe",
+	"email" : "mroe45@gmail.com",
+	"accountNumber" : 3759067, 
+	"currentBalance" : 457.2
+},
+
+{
+	"name" : "Lisa McGuire",
+	"email" : "mguire12@gmail.com",
+	"accountNumber" : 1262399, 
+	"currentBalance" : 2378.4
+}, 
+
+{
+	"name" : "Monica James",
+	"email" : "mjames@gmail.com",
+	"accountNumber" : 4462198, 
+	"currentBalance" : 124.9
+}]
