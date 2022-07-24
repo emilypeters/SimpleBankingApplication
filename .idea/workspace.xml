@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f11402-b57d-40d1-9cd6-a5bf6a4521b3" name="Changes" comment="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost">
+    <list default="true" id="80f11402-b57d-40d1-9cd6-a5bf6a4521b3" name="Changes" comment="Cleaned up thymeleaf and added google fonts, coloring">
+      <change afterPath="$PROJECT_DIR$/accounts.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sba/controller/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sba/controller/controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sba/controller/controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sba/controller/controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658672173256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaned up thymeleaf and added google fonts, coloring">
+      <created>1658699186258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658699186258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +138,7 @@
     <MESSAGE value="Created spring boot application and basic controller" />
     <MESSAGE value="Added unversioned files" />
     <MESSAGE value="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created GsonAssembler that reads sample data from json file and converts it to AccountDto pojo. Thymeleaf displays basic account details on localhost" />
+    <MESSAGE value="Cleaned up thymeleaf and added google fonts, coloring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up thymeleaf and added google fonts, coloring" />
   </component>
 </project>
